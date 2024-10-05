@@ -1,0 +1,20 @@
+input a=8 b=7
+after swapping 
+a=7 b=9
+*/
+#include<stdio.h>
+int main()
+{
+    int a, b, t; //variable declaration
+    printf("enter integer number: ");//display promt to user
+    scanf("%d",&a);//accept an integer from user
+    printf("enter integer number: ");//display promt to user
+    scanff("%d",&b);//accept an integer from user//logic of swapping
+    printf("\ncontents before swapping a=%d and b=%d",a,b);
+    t=a;
+    a=b;
+    b=t;
+    printf("\ncontents after swapping a=%d and b=%d",a,b);
+    return 0;
+
+}
